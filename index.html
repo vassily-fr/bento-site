@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bento Board — assistance</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap">
+<style>
+  :root {
+    --electric: #3341c4;
+    --coral: #ff7a5c;
+    --amber: #ffc24e;
+    --pale-yellow: #ffe9a8;
+    --cream: #fff3cf;
+    --ink: #3341c4;
+    --muted: #4754ca;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 20px 80px;
+    color: var(--ink);
+    background-color: var(--cream);
+    /* Le damier de l'app, en fond de page : deux jaunes, cases de 12. */
+    background-image:
+      conic-gradient(var(--pale-yellow) 0 25%, var(--cream) 0 50%,
+                     var(--pale-yellow) 0 75%, var(--cream) 0);
+    background-size: 24px 24px;
+    font-family: Nunito, system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+  }
+  main {
+    max-width: 640px;
+    margin: 48px auto;
+    background: #fff;
+    border-radius: 24px;
+    padding: 40px 32px;
+    box-shadow: 0 12px 32px -8px color-mix(in srgb, var(--electric) 26%, transparent);
+  }
+  h1 { font-size: clamp(28px, 6vw, 38px); font-weight: 800; margin: 0 0 6px; letter-spacing: -0.02em; }
+  .lede { margin: 0 0 32px; color: var(--muted); }
+  h2 { font-size: 18px; font-weight: 800; margin: 32px 0 8px; }
+  p, li { color: var(--muted); }
+  a { color: var(--electric); font-weight: 600; }
+  ul { padding-left: 20px; }
+  .mail {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 12px 20px;
+    border-radius: 999px;
+    background: var(--coral);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+  }
+  footer { max-width: 640px; margin: 0 auto; text-align: center; font-size: 13px; color: var(--muted); }
+  footer a { margin: 0 8px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Bento Board</h1>
+  <p class="lede">Des photos posées comme dans une boîte à bento.</p>
+
+  <h2>Une question, un problème&nbsp;?</h2>
+  <p>
+    Bento est développé par une seule personne. Écrivez-moi&nbsp;: je lis tout,
+    et je réponds sous quelques jours.
+  </p>
+  <p><a class="mail" href="mailto:bentojelori@gmail.com">bentojelori@gmail.com</a></p>
+
+  <h2>Pour que je puisse aider</h2>
+  <ul>
+    <li>Le modèle d'appareil et la version d'iOS</li>
+    <li>La version de Bento, indiquée dans «&nbsp;À propos&nbsp;»</li>
+    <li>Ce que vous faisiez, et ce qui s'est passé à la place</li>
+  </ul>
+
+  <h2>Questions fréquentes</h2>
+
+  <p><strong>Où sont mes projets&nbsp;?</strong><br>
+  Sur votre appareil, et nulle part ailleurs. Ils survivent aux mises à jour de
+  l'app, mais pas à sa désinstallation&nbsp;: supprimer Bento supprime ses projets.</p>
+
+  <p><strong>Mes photos partent-elles quelque part&nbsp;?</strong><br>
+  Non. Bento n'a aucune connexion réseau. Voir la
+  <a href="privacy.html">politique de confidentialité</a>.</p>
+
+  <p><strong>Comment envoyer des photos à Bento depuis une autre app&nbsp;?</strong><br>
+  Par la feuille de partage d'iOS&nbsp;: sélectionnez vos photos, touchez
+  Partager, puis Bento.</p>
+
+  <p><strong>Puis-je récupérer un projet supprimé&nbsp;?</strong><br>
+  Non. La suppression est définitive et demande confirmation.</p>
+</main>
+
+<footer>
+  <a href="privacy.html">Confidentialité</a> ·
+  <a href="index.html">Assistance</a>
+</footer>
+</body>
+</html>
