@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bento Board — app de collage photo pour iPhone et iPad</title>
-<meta name="description" content="Créez des collages photo sur iPhone et iPad : grille nette ou composition libre, avant/après, bulles de texte, captures d'écran recousues en une seule image longue. Partagez vos photos directement depuis Photos. Sans compte, sans publicité, rien ne quitte votre téléphone.">
+<title>Bento Board — Collage photo et avant/après sur iPhone et iPad</title>
+<meta name="description" content="App gratuite de montage et collage photo sur iPhone et iPad : mettre deux photos côte à côte, faire un avant/après, assembler des captures d'écran en une image longue. Sans compte, sans pub.">
 <link rel="canonical" href="https://jelori.app/fr/bento/">
 <link rel="alternate" hreflang="en" href="https://jelori.app/bento/">
 <link rel="alternate" hreflang="fr" href="https://jelori.app/fr/bento/">
@@ -16,6 +16,9 @@
 <meta property="og:description" content="Deux photos, une image. Collages et comparaisons avant/après sur iPhone et iPad.">
 <meta property="og:url" content="https://jelori.app/fr/bento/">
 <meta property="og:image" content="https://jelori.app/assets/og-bento.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Bento Board, l'app de collage photo pour iPhone et iPad">
 <meta property="og:locale" content="fr_FR">
 <meta property="og:locale:alternate" content="en_GB">
 <meta name="twitter:card" content="summary_large_image">
@@ -36,9 +39,77 @@
   "description": "App de collage photo : grille ou composition libre, avant/après, bulles de texte. Sans compte, sans publicité, aucune donnée collectée.",
   "url": "https://jelori.app/fr/bento/",
   "image": "https://jelori.app/assets/bento-icon.png",
+  "screenshot": ["https://jelori.app/assets/shots/01-two-photos.webp", "https://jelori.app/assets/shots/02-straight-from-photos.webp", "https://jelori.app/assets/shots/03-show-the-difference.webp", "https://jelori.app/assets/shots/04-side-by-side-or-stacked.webp", "https://jelori.app/assets/shots/05-up-to-nine.webp"],
+  "featureList": ["Collages photo en grille ou en composition libre", "Deux photos côte à côte ou empilées", "Avant/après avec bulles de texte", "Jusqu'à neuf photos (3×3)", "Captures d'écran assemblées en une image longue", "Export en pleine définition"],
+  "sameAs": "https://apps.apple.com/fr/app/id6813168098",
   "installUrl": "https://apps.apple.com/fr/app/id6813168098",
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
   "author": { "@type": "Organization", "name": "Jelori", "url": "https://jelori.app/" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "inLanguage": "fr",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Comment mettre deux photos côte à côte sur iPhone ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dans Photos, sélectionnez les deux photos, touchez Partager, puis Bento. Choisissez la disposition côte à côte et exportez le résultat vers votre photothèque ou n'importe quelle app."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment faire une photo avant/après sur iPhone ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Partagez les photos avant et après vers Bento depuis Photos, choisissez côte à côte ou empilées, et ajoutez des bulles pour les légender. Export en pleine définition."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment assembler plusieurs captures d'écran en une seule ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Faites deux à quatre captures en faisant défiler, en gardant à l'écran une partie de la précédente. Partagez-les ensemble vers Bento et choisissez Makimono : elles sont recousues en une seule image longue."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien de photos dans un collage ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Les grilles vont jusqu'à neuf photos (3×3), en carré, 4:5, 9:16 ou 16:9. La composition libre vous laisse placer les photos où vous voulez."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Bento Board est-il gratuit ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui. Bento Board est gratuit sur l'App Store, sans compte et sans publicité."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ça marche sur iPad ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, Bento Board fonctionne sur iPhone et sur iPad."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Mes photos sont-elles envoyées quelque part ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Non. Bento Board n'a aucune connexion réseau : vos photos et vos projets restent sur votre appareil."
+      }
+    }
+  ]
 }
 </script>
 </head>
@@ -53,8 +124,8 @@
     <div>
       <img class="hero-icon" src="../../assets/bento-icon.png" alt="Icône de Bento Board" width="104" height="104">
       <h1>Bento Board</h1>
-      <p class="tagline">Collage photo, grille ou libre.</p>
-      <p>Sélectionnez quelques photos dans votre photothèque, touchez Partager, choisissez Bento : la planche s'ouvre avec vos images déjà en place. Rangez-les dans une grille nette, ou posez-les où vous voulez.</p>
+      <p class="tagline">L'app de collage et montage photo pour iPhone et iPad.</p>
+      <p>Sélectionnez quelques photos dans votre photothèque, touchez Partager, choisissez Bento : la planche s'ouvre avec vos images déjà en place. Rangez-les dans une grille nette, côte à côte, en avant/après, ou posez-les où vous voulez.</p>
       <a class="badge" href="https://apps.apple.com/fr/app/id6813168098"><svg viewBox="0 0 384 512" aria-hidden="true"><path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg><span><small>Télécharger dans</small>l'App Store</span></a>
       <ul class="facts">
         <li>Gratuit</li><li>Sans compte</li><li>Sans publicité</li><li>iPhone et iPad</li>
@@ -86,7 +157,7 @@
 
   <section class="makimono">
     <div>
-      <h2>Makimono : toute une page, une seule image</h2>
+      <h2>Makimono : assembler des captures d'écran en une image longue</h2>
       <p>Une longue conversation, une recette, un ticket qui dépasse de l'écran ? Faites quelques captures en descendant, partagez-les ensemble vers Bento et choisissez Makimono. Elles sont recousues en une seule image longue, comme si vous aviez capturé toute la page d'un coup.</p>
       <ul>
         <li>Faites défiler un peu entre deux captures en gardant à l'écran une partie de la précédente : c'est là que passe la couture.</li>
@@ -117,11 +188,11 @@
       <p>Sélectionnez plusieurs photos, touchez Partager, choisissez Bento. Pas d'import une par une : elles arrivent toutes sur la planche.</p>
     </div>
     <div class="card">
-      <h2>Grille ou libre</h2>
+      <h2>Grille photo ou composition libre</h2>
       <p>Dix dispositions, du plein cadre au 3×3, en carré, 4:5, 9:16 ou 16:9 — ou pas de grille du tout.</p>
     </div>
     <div class="card">
-      <h2>Montrez la différence</h2>
+      <h2>Photos avant/après</h2>
       <p>Avant et après, côte à côte ou empilés, avec des bulles de bande dessinée pour dire qui est qui.</p>
     </div>
     <div class="card">
@@ -136,6 +207,27 @@
       <h2>Rien ne quitte votre téléphone</h2>
       <p>Aucun compte, aucune publicité, aucun suivi, aucune connexion. <a href="privacy/">Lire la politique de confidentialité.</a></p>
     </div>
+  </section>
+
+  <section class="uses">
+    <h2>Ce qu'on fait avec Bento Board</h2>
+    <ul>
+    <li class="card"><h3>Deux photos côte à côte</h3><p>Comparer deux tenues, deux pièces, deux plats : une seule image, prête à envoyer.</p></li>
+    <li class="card"><h3>Avant/après</h3><p>Des travaux, une coupe de cheveux, un jardin, un placard rangé. Ajoutez des bulles pour dire qui est qui.</p></li>
+    <li class="card"><h3>Photos d'annonce</h3><p>Montrez un objet sous tous les angles en une seule image pour votre annonce de vente.</p></li>
+    <li class="card"><h3>Captures d'écran longues</h3><p>Toute une conversation, une recette ou un ticket en une seule image longue, avec Makimono.</p></li>
+    </ul>
+  </section>
+
+  <section class="faq">
+    <h2>Questions fréquentes</h2>
+    <details class="card"><summary><h3>Comment mettre deux photos côte à côte sur iPhone ?</h3></summary><p>Dans Photos, sélectionnez les deux photos, touchez Partager, puis Bento. Choisissez la disposition côte à côte et exportez le résultat vers votre photothèque ou n'importe quelle app.</p></details>
+    <details class="card"><summary><h3>Comment faire une photo avant/après sur iPhone ?</h3></summary><p>Partagez les photos avant et après vers Bento depuis Photos, choisissez côte à côte ou empilées, et ajoutez des bulles pour les légender. Export en pleine définition.</p></details>
+    <details class="card"><summary><h3>Comment assembler plusieurs captures d'écran en une seule ?</h3></summary><p>Faites deux à quatre captures en faisant défiler, en gardant à l'écran une partie de la précédente. Partagez-les ensemble vers Bento et choisissez Makimono : elles sont recousues en une seule image longue.</p></details>
+    <details class="card"><summary><h3>Combien de photos dans un collage ?</h3></summary><p>Les grilles vont jusqu'à neuf photos (3×3), en carré, 4:5, 9:16 ou 16:9. La composition libre vous laisse placer les photos où vous voulez.</p></details>
+    <details class="card"><summary><h3>Bento Board est-il gratuit ?</h3></summary><p>Oui. Bento Board est gratuit sur l'App Store, sans compte et sans publicité.</p></details>
+    <details class="card"><summary><h3>Ça marche sur iPad ?</h3></summary><p>Oui, Bento Board fonctionne sur iPhone et sur iPad.</p></details>
+    <details class="card"><summary><h3>Mes photos sont-elles envoyées quelque part ?</h3></summary><p>Non. Bento Board n'a aucune connexion réseau : vos photos et vos projets restent sur votre appareil.</p></details>
   </section>
 
   <section class="cta">

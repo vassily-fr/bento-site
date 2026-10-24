@@ -312,3 +312,25 @@ footer.foot nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 
   .makimono h2 { text-align: center; }
   .scroll { order: 0; zoom: .8; }
 }
+
+/* Usages et questions fréquentes : des cartes, comme les fonctionnalités. */
+.uses, .faq { max-width: 1040px; margin: 56px auto 0; padding: 0 16px; }
+.uses h2, .faq h2 { font-size: clamp(26px, 4vw, 36px); line-height: 1.2; margin: 0 0 20px; }
+.uses ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.uses h3, .faq h3 { font-family: Nunito, system-ui, sans-serif; font-weight: 800; font-size: 18px; line-height: 1.35; margin: 0 0 6px; }
+.faq { max-width: 760px; display: grid; gap: 12px; }
+.faq h2 { margin-bottom: 8px; }
+.faq details { padding: 16px 22px; }
+.faq summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; gap: 16px; align-items: center; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; font-size: 24px; font-weight: 800; color: var(--coral); line-height: 1; }
+.faq details[open] summary::after { content: "–"; }
+.faq summary h3 { margin: 0; }
+.faq details p { margin: 10px 0 0; }
+@media (max-width: 760px) {
+  .uses ul { grid-template-columns: 1fr 1fr; }
+  .uses h2, .faq h2 { text-align: center; }
+}
+@media (max-width: 480px) {
+  .uses ul { grid-template-columns: 1fr; }
+}
